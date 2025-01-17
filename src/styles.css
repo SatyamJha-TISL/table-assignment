@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-optical-sizing: auto;
 }
+:root{
+  font-family: "Roboto", serif;
+}
 
 .App {
-  font-family: "lato", sans-serif;
   text-align: center;
+}
+
+button {
+  background: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  cursor: pointer;
 }

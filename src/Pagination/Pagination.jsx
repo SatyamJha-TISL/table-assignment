@@ -54,6 +54,7 @@ export const Pagination = ({
     <nav>
       <div className="pagination">
         <button
+        className="page-btn"
           onClick={(e) => paginate(currentPage - 1, e)}
           disabled={currentPage === 1}
         >
@@ -74,6 +75,7 @@ export const Pagination = ({
           </div>
         ))}
         <button
+        className="page-btn"
           onClick={(e) => paginate(currentPage + 1, e)}
           disabled={currentPage === Math.ceil(totalPosts / dataPerPage)}
         >
